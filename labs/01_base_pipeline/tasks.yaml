@@ -4,3 +4,7 @@ metadata:
   name: <place-name-here>
 spec:
   steps:
+  - name: hello-world
+    image: alpine:3
+    command: [/bin/echo]
+    args: ["Hello World"]
